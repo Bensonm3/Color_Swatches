@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap Integration -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Google Fonts Integration -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- jQuery Integration -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Style Sheet Integration -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Swatches</title>
+</head>
+<body>
+    <div class = "row headerRow">
+        <div class="col-md-2">
+            <div class="logo">HH
+            </div>
+        </div>
+        <div class = "col-md-7">
+        </div>
+        <div class = "col-md-3">
+                <input type="search"id ="searchText" placeholder="Search">
+        </div>
+    </div>
+    <div class = "row bodyRow">
+        <div class="col-md-2 colorColumn">
+            <div class ="col-md-12 colorColumnContainer">
+                <form id ="randomBtnBox">
+                    <button type="submit" id="randomBtn">Random Color
+                    </button>
+                </form>
+                <div id="#ff0000" class= "colorList" onclick="detailView(this.id)">Red</div>
+                <div id="#ffa500" class= "colorList" onclick="detailView(this.id)">Orange</div>
+                <div id="#ffff00" class= "colorList" onclick="detailView(this.id)">Yellow</div>
+                <div id="#008000" class= "colorList" onclick="detailView(this.id)">Green</div>
+                <div id="#0000ff" class= "colorList" onclick="detailView(this.id)">Blue</div>
+                <div id="#800080" class= "colorList" onclick="detailView(this.id)">Purple</div>
+                <div id="#a52a2a" class= "colorList" onclick="detailView(this.id)">Brown</div>
+                <div id="#808080" class= "colorList" onclick="detailView(this.id)">Gray</div>
+            </div>
+        </div>
+        <!-- Content of SwatchContainer generated in Javascript -->
+        <div class="col-md-10">
+            <div class="col-md-12" id = "swatchContainer">
+
+            </div>
+            <!-- content of lowerContainer generated in Javascript -->
+            <div class="row" id=lowerContainer>
+
+            </div>
+        </div>
+        </div>
+        <!-- Content of lowerContainer is generated in Javascript -->
+        
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>

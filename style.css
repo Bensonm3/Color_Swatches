@@ -1,0 +1,106 @@
+body{
+    font-family: 'Source Serif Pro', serif;
+}
+/*Header and Color Column CSS  */
+.logo{
+top: 20%;
+position: absolute;
+padding-left: .5em;
+font-size: 2em;   
+}
+.colorColumn{
+    background-color: #D5D8D8;
+    height: 100vh;
+    border-right: 1px solid #B7B8B8;
+}
+.headerRow{
+    background-color:#363C3C;
+    height: 5em;
+}
+.colorList{
+    text-align: left;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: block;
+}
+#randomBtn{
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 9%;
+    padding-top: .2em;
+    padding-bottom:.2em;
+    padding-right:.5em;
+    padding-left:.5em;
+}
+#searchText{
+    top: 30%;
+    position: absolute;
+}
+
+/* Swatch View CSS */
+#clearBtn{
+    margin:auto;
+    border-radius: 9%;
+    padding-top: .2em;
+    padding-bottom:.2em;
+    padding-right:5em;
+    padding-left:5em;
+    background-color: white;
+}
+#swatchContainer{
+    margin-top: 2em;
+}
+
+.swatchRow{
+    margin-bottom: 2em;
+}
+.colorBox{
+    height: 13em;
+    width: 100%;
+    margin-right: 0;
+}
+.colorName{
+    height: 2em;
+    padding-left: .4em;
+}
+.mainSwatch{
+    border: 1px solid black;
+    padding: 0;
+    border-radius: 1%;
+}
+.colorSwatch{
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    cursor: pointer;
+}
+.mainColorBox{
+    height: 26em;
+    width: 100%;
+    padding: 5em;
+}
+.mainColorName{
+    font-size: 2.5em;
+    height: 2em;
+    padding-left: .5em;
+    
+}
+.shadeBox{
+    height: 6.5em;
+    width: 100%;
+    
+}
+.indexRow{
+    margin: 0 auto;
+}
+#lowerContainer{
+margin-top: 2em;
+}
+.buttonRow{
+    margin: auto;
+    margin-top: 2em;
+}
+.indexList{
+    cursor: pointer;
+}
