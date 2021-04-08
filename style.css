@@ -94,6 +94,7 @@ font-size: 2em;
 .indexRow{
     margin: 0 auto;
 }
+/* lower content container and index list container */
 #lowerContainer{
 margin-top: 2em;
 }
