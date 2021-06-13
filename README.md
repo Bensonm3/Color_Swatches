@@ -1,11 +1,11 @@
 # Color Swatches
 An app to help users determine and review color options
 
-As a designer, I want to review color options and see different shades to help make the best color choices.
+As a designer, I want to review color options and see different shades to help make the best color choices in my project.
 
 **Features:**
 <br/>
-Seachable database of all 144 named HTML colors
+Searchable database of all 144 named HTML colors
 <br/>
 Random color button for inspiration
 <br/>
