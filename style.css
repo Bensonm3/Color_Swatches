@@ -10,7 +10,7 @@ font-size: 2em;
 }
 .colorColumn{
     background-color: #D5D8D8;
-    height: 120vh;
+    height: 100vh;
     border-right: 1px solid #B7B8B8;
 }
 .headerRow{
@@ -94,7 +94,6 @@ font-size: 2em;
 .indexRow{
     margin: 0 auto;
 }
-/* lower content container and index list container */
 #lowerContainer{
 margin-top: 2em;
 }
