@@ -31,7 +31,6 @@ jQuery
 
 **Instructions:**
 <br/>
-
 Upon startup, the user can search for a named color in the search bar, choose a named color in the sidebar, select "random color" or choose from the list of colors presented, navigating to other pages if necessary.
 <br/>
 Once selected, the app will display the color as the main shade, with 2 darker and 2 lighter colors next to it below the main swatch
