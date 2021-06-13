@@ -1,9 +1,9 @@
 # Color Swatches
-An app to help users determine review color options
+An app to help users determine and review color options
 
 As a designer, I want to review color options and see different shades to help make the best color choices.
 
-Features:
+**Features:**
 <br/>
 Seachable database of all 144 named HTML colors
 <br/>
@@ -18,7 +18,7 @@ Each shade can be clicked, making it the main color and showing the lighter/dark
 Over 10 pages of colors to search through!
 <br/><br/>
 
-Technologies Used:
+**Technologies Used:**
 <br/>
 HTML
 <br/>
@@ -29,7 +29,7 @@ Javascript
 jQuery
 <br/><br/>
 
-Instructions:
+**Instructions:**
 <br/>
 
 Upon startup, the user can search for a named color in the search bar, choose a named color in the sidebar, select "random color" or choose from the list of colors presented, navigating to other pages if necessary.
@@ -43,5 +43,5 @@ The user can click the "clear" button to revert back to the landing page.
 ![alt text](https://github.com/Bensonm3/Color_Swatches/blob/master/Screen%20Shot%202021-06-13%20at%202.59.34%20PM.png)
 <br/><br/>
 
-Deployed URL: https://bensonm3.github.io/Color_Swatches/
+**Deployed URL:** https://bensonm3.github.io/Color_Swatches/
 
